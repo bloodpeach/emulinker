@@ -13,7 +13,7 @@ import org.picocontainer.defaults.PicoInvocationTargetInitializationException;
 
 public class PicoStarter {
     private static Log log = LogFactory.getLog(PicoStarter.class);
-    public static final String CONFIG_FILE = "components.xml";
+    public static final String CONFIG_FILE = "conf/components.xml";
     private PicoContainer container;
 
     /**
